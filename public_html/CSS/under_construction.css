@@ -1,0 +1,49 @@
+/* 
+    Created on : Apr 5, 2016, 9:18:26 PM
+    Author     : Pickel
+*/
+
+/*
+h1::before {    
+    background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRK9AgegPrunnpuO6wD3rp0cCsCdu_-oTKDCv4vErgeu_mJ5EGpavC7Ejzo");
+    background-size: 30px 30px;
+    display: inline-block;
+    width: 30px; 
+    height: 30px;
+    content:"";  
+}
+*/
+
+header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+  height: 50px;
+}
+
+header h1 {
+ text-align: center;
+ font-size: 50px;
+}
+
+#smokies {
+    float: left;   
+    height: 180px;
+    width: 500px;
+}
+
+#lburg {
+    float: right;   
+    height: 187px;
+    width: 250px;
+}
+
+.pics {
+    padding-top: 20px;
+    clear: both;
+    
+}
+.pics p {
+    text-align: right;
+}
