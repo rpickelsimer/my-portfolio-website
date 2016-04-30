@@ -1,0 +1,53 @@
+
+
+Ryan Pickelsimer 
+1710 Patterson Ave #B, Roanoke, VA 24016	Tel:  540-598-0403 – email: rapickelsimer@gmail.com
+
+OBJECTIVE
+Find an entry level programming/ software engineering position where I can use my skills and abilities to contrbute to the growth of the organization and my professional career. 
+
+
+
+EDUCATION
+2013 – 2015			RASMUSSEN COLLEGE
+				Bachelor of Science, Computer Science (GPA 3.96)
+
+1997 – 2007			UNIVERSITY OF NORTH CAROLINA CHARLOTTE
+				Bachelor of Arts, German Language
+
+
+
+TECHNICAL SKILLS
+Languages: C/C++, Python, Java, .NET, SQL, PHP, Javascript, HTML/CSS, XML
+Software: Visual Studio, Eclipse, Android Studio, Netbeans, JUnit, XAMPP, phpMyAdmin, MySQL, Bash, Git, .NET Framework
+
+
+
+RELEVANT SKILLS AND KNOWLEDGE
+Understand GUI and console interface design principles
+Implemented threading and messaging for processing and communication
+Use schematics and specifications to wire and power electrical components for automated projects
+Arduino/Android Project – designed and created GPS tracker/logger that interfaces with a custom made Android application using Bluetooth.
+
+
+
+PERSONAL QUALITIES
+A highly-motivated, productive team player with strong communication, interpersonal, organizational, time management, analytic and problem solving skills. Reliable and dedicated with the ability to grasp and apply new procedures quickly; organize and prioritize tasks to meet deadlines and adapt readily to new challenges. 
+
+
+
+RELEVANT EXPERIENCE
+RASMUSSEN COLLEGE	2015
+Online Tutor 	
+Communicated ideas and concepts effectively to other students using traditional and web based communication tools – telephone, video, chat, whiteboard, screen and document sharing
+Compiled web based resources for online student guides and trained peers/new tutors
+CRLA (College Reading & Learning Association) Level I Certified Tutor
+
+
+
+EXTRA-CURRICULAR ACTIVITIES
+Programming/electronics projects using Arduino and Raspberry Pi
+Member of Roanoke Linux User's Group 
+Completed 2285 mile Appalachian Trail hike
+Hiking, skateboarding, cycling, woodworking, sailing
+

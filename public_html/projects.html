@@ -4,15 +4,14 @@
     <meta charset="UTF-8">    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects</title>  
-    <link rel="stylesheet" type="text/css" href="css/index.css">
-    <link rel="stylesheet" type="text/css" href="css/projects.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+ 
   </head>
   
   <body>
   
     <header>
       <h1>Ryan Pickelsimer</h1>
-      <h4>Programming Portfolio</h4>
     </header>
 
     <nav>
@@ -25,45 +24,74 @@
 
     <section>
         <h3>Computer Programming Projects</h3>
-        <ul>
+        <hr>
+        <ul>            
+            <li><a href='#c'>C</a></li>
             <li><a href='#cpp'>C++</a></li>
-            <li><a>C</a></li>
-            <li><a>Java</a></li>
-            <li><a href="#android">Android</a></li>
-            <li><a href="#html">HTML/CSS</a></li>
-            <li><a>PHP</a></li>
-            <li><a>JavaScript</a></li>
-            <li><a>Python</a></li>
             <li><a>C#</a></li>
-            <li><a>Assembler</a></li>
-            
+            <li><a href="#html">HTML/CSS</a></li>
+            <li><a href="#android">Java/Android</a></li>
+            <li><a>JavaScript</a></li>
+            <li><a href='#php'>PHP</a></li>
+            <li><a>Python</a></li>     
+            <li><a>SQL</a></li>
         </ul>
+        <br>
+        <h6><em>* This page is still under construction. To request specific samples, please</em>
+            <a href='contact.html'>contact me.</a>
+        </h6>
         <table>
-            <tr><th colspan="3">Programs</th></tr>
+            <!--tr><th colspan="3" id="t_head">Programs</th></tr-->
             <tr>
-                <td><a href="https://github.com/rpickelsimer" target="_blank">GitHub</a></td>
-                <td>HTML</td>    
-                <td>Description</td>
+                <th><a href="https://github.com/rpickelsimer" target="_blank">GitHub</a></th>
+                <th>Html</th> 
+                <th>Description</th>
             </tr>
+            <!-- C -->
+             <tr>
+                <th id="c" colspan="3">C</th>           
+            </tr>
+            <tr>
+                <td><a href="https://github.com/rpickelsimer/MCP.git" target="_blank">MCP</a></td>
+                <td><a href='samples/andruino_demo.html'>andruino_demo.ino</a></td>
+                <td>Arduino sketch for interfacing with GPS, SD logger, and Bluetooth modules 
+                    from an Android device</td>
+            </tr>
+            <!-- C++ -->
             <tr>
                 <th id="cpp" colspan="3">C++</th>           
             </tr>
             <tr>
                 <td><a href="https://github.com/rpickelsimer/Tetris.git" target="_blank">Tetris</a></td>
-                <td><a href="samples/tetris.html">Tetris.cpp</a></td>
+                <td><a href="samples/tetris.html" target="_blank">Tetris.cpp</a></td>
                 <td>Windows console application</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/rpickelsimer/Tron.git" target="_blank">Tron</a></td>
-                <td><a href="samples/tron.html">Tron.cpp</a></td>
+                <td><a href="samples/tron.html" target="_blank">Tron.cpp</a></td>
                 <td>Lightcycles, Windows console app</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/rpickelsimer/YAHTZEE.git" target="_blank">YAHTZEE</a></td>
-                <td><a href="samples/yahtzee.html">YAHTZEE.cpp</a></td>
+                <td><a href="samples/yahtzee.html" target="_blank">YAHTZEE.cpp</a></td>
                 <td>Multi-player Windows console app</td>
             </tr>
-            <tr><th id="android" colspan="3">Android</th></tr>
+            <!-- HTML/CSS -->
+             <tr>
+                <th id="html" colspan="3">HTML/CSS</th>           
+            </tr>
+            <tr>
+                <td><a href="https://github.com/rpickelsimer/my-portfolio-website.git" target="_blank">This website</a></td>
+                <td class="dash">-</td>
+                <td>My personal portfolio website</td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/rpickelsimer/employee-directory.git" target="_blank">
+                        employee-directory</a></td>
+                <td class="dash">-</td> 
+                <td>Website that connects to a SQL database</td>
+            </tr>
+            <tr><th id="android" colspan="3">Java/Android</th></tr>
             <tr>
                 <td><a href="https://github.com/rpickelsimer/MCP.git" target="_blank">MCP</a></td>
                 <td class="dash">-</td>
@@ -77,19 +105,35 @@
             <tr>
                 <td><a href="https://github.com/rpickelsimer/Task-Manager.git" target="_blank">Task-Manager</a></td>
                 <td class="dash">-</td>
-                <td>View and enter tasks</td>
+                <td>Save and view tasks using SQLite</td>
             </tr>
-            <tr>
-                <th id="html" colspan="3">HTML/CSS</th>           
+            <!-- PHP -->
+            <tr><th id="php" colspan="3">PHP</th></tr>
+             <tr>
+                <td><a href="https://github.com/rpickelsimer/employee-directory.git" target="_blank">
+                        employee-directory</a></td>
+                <td class="dash">-</td> 
+                <td>Website that connects to a SQL database</td>
             </tr>
+            <!-- SQL -->
+            <tr><th id="sql" colspan="3">SQL</th></tr>
             <tr>
-                <td><a href="https://github.com/rpickelsimer/my-portfolio-website.git" target="_blank">This website</a></td>
+                <td><a href="https://github.com/rpickelsimer/" target="_blank"></a></td>
                 <td class="dash">-</td>
-                <td>My personal portfolio website</td>
+                <td class="dash">-</td>
             </tr>
         </table> 
     </section>
-    
+    <aside>
+          <h4>Download a copy of my resume</h4>
+          <a href='res/resume.txt' download='rpickelsimer_resume.txt'><button>Download</button></a>
+          <br><br>
+          <h4>Some other profiles and groups of mine:</h4>
+          <a href="https://github.com/rpickelsimer" target="_blank"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Logo.png"></a>
+          <a href="http://www.roalug.net" target="_blank"><img src="http://www.roalug.net/layout/modern_curve/images/logo.png"></a>
+          <a href="https://www.codecademy.com/sk8pickel" target="_blank"><img id="codecademy" src="http://www.wired.com/wp-content/uploads/2014/05/Codecademy-01-1024x768.jpg"></a>
+          <a href="https://www.codingame.com/profile/136cf366d3f3a35a98ac0e415ebcff2d693789" target="_blank"><img id="codingame" src="http://www.isai.fr/data/post-amorcage_2fd50/fiche/192/fiche_codingame_logo_66c33.png"></a>
+      </aside>
     <footer>
       <h6>Email: <a href="mailto:rapickelsimer@gmail.com?Subject=About%20your%20website" target="_top">Ryan Pickelsimer</a></h6>      
     </footer>

@@ -3,8 +3,14 @@
     Author     : Pickel
 */
 
-body {
+html, body {
     font-family: Palatino, Verdana, "Sans-serif";
+    height:100%;
+}
+
+#wrapper {
+    min-height: 100%;
+    margin:0 auto -4em;    
 }
 
 header {
@@ -22,7 +28,7 @@ nav {
     line-height:30px;
     background-color:rgba(47,124,150,.15);
     height:300px;
-    width:100px;
+    width:120px;
     float:left;
     padding:5px;    
 }
@@ -33,9 +39,18 @@ nav a:link, nav a:visited, section a:link {
 }
 
 section {        
-    width:350px;
+    width:650px;
     float:left;
-    padding:10px;
+    padding:5px;
+    /*background-image: url('http://i380.photobucket.com/albums/oo245/rapickel/20160121_090412.jpg');*/
+}
+
+section a:hover {
+    color: orangered;
+}
+
+section a:visited {
+    color: teal;
 }
 
 footer {
@@ -44,6 +59,11 @@ footer {
     clear:both;
     text-align:center;
     padding:5px;
+    margin-bottom: 10px;
+}
+
+footer, .push {
+    height: 4em;
 }
 
 footer a {
@@ -54,7 +74,41 @@ li {
   list-style-type:none;
 }
 
-img {
-    height:300px;
-    width:530px;
+section img {
+    height:auto;
+    width:500px;
+    border: 5px solid #FFF;
+}
+
+aside {
+    position: absolute;
+    right: 8px;
+    width: 200px;
+    min-height: 225px; 
+    font-size: smaller;
+    text-align: center;
+    background-color:rgba(124,150,47,.75);
+}
+
+aside img {
+    max-height: 75px;
+    max-width:125px; 
+    padding-bottom: 10px;
+}
+
+table {
+    padding:5px;
+}
+th, td {
+    border-bottom: 1px solid #ddd;  
+    padding-right:10px;
+    padding-left:10px;
+}
+
+th {
+    background: #ddd;
+}
+
+.dash {
+    text-align: center;
 }
